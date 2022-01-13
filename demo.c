@@ -2,6 +2,8 @@
 #include<string.h>
 int main()
 {
-    char c[]="sheik";
-    printf("%d",strlen(c));
+
+    char c[]={0};
+    strcpy(c,"sheik");
+    printf("%u",strlen(c));
 }

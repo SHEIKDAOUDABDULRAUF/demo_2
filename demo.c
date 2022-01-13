@@ -3,7 +3,6 @@
 int main()
 {
 
-    char c[]={0};
-    strcpy(c,"sheik");
-    printf("%u",strlen(c));
+    char *c="sheik";
+    printf("%lu",strnlen(c,10));
 }
